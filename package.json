@@ -3,5 +3,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
+  },
+  "dependencies": {
+    "nextra": "^3.2.4",
+    "nextra-theme-docs": "^3.2.4"
   }
 }
