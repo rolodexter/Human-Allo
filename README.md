@@ -1,6 +1,6 @@
 ## The [Coordination Challenge](docs/concepts/coordination-challenge.md)
 
-The [Human Allo](docs/concepts/human-allo.md) protocol addresses a fundamental paradox in [global problem-solving](docs/concepts/global-problem-solving.md): while we often cannot fully define specific [project solutions](docs/solutions/project-solutions.md) for complex challenges, we can identify the critical [expertise](docs/attributes/expertise.md) and [talent](docs/actors/talent.md) needed to maintain [ecosystem stability](docs/concepts/ecosystem-stability.md).
+The [Human Allo](docs/concepts/human-allo.md) protocol addresses a fundamental paradox in [global problem-solving](/docs/concepts/global-problem-solving.md): while we often cannot fully define specific [project solutions](docs/solutions/project-solutions.md) for complex challenges, we can identify the critical [expertise](docs/attributes/expertise.md) and [talent](docs/actors/talent.md) needed to maintain [ecosystem stability](docs/concepts/ecosystem-stability.md).
 
 **Architecture Flow Diagram**
 ```mermaid
