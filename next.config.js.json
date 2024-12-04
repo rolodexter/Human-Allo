@@ -3,9 +3,4 @@ const withNextra = require('nextra')({
   themeConfig: './theme.config.js'
 })
 
-const isProd = process.env.NODE_ENV === 'production'
-module.exports = {
-  ...withNextra(),
-  basePath: isProd ? '/Human-Allo' : '',
-  assetPrefix: isProd ? '/Human-Allo/' : ''
-}
+module.exports = withNextra()
