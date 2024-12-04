@@ -2,7 +2,7 @@
 
 The [Human Allo](docs/concepts/human-allo.md) protocol addresses a fundamental paradox in [global problem-solving](docs/concepts/global-problem-solving.md): while we often cannot fully define specific [project solutions](docs/solutions/project-solutions.md) for complex challenges, we can identify the critical [expertise](docs/attributes/expertise.md) and [talent](docs/actors/talent.md) needed to maintain [ecosystem stability](docs/concepts/ecosystem-stability.md).
 
-**1. Architecture Flow Diagram**
+**Architecture Flow Diagram**
 ```mermaid
 flowchart TD
     A[Allo Protocol Base Layer] --> B[Human Allo Layer]
@@ -36,5 +36,20 @@ flowchart TD
 - [Talent-first capital allocation](docs/mechanisms/talent-first-allocation.md)
 - [Ecosystem maintenance](docs/maintenance/ecosystem.md) through [human capital](docs/concepts/human-capital.md) support
 - [Coordination mechanism](docs/mechanisms/coordination.md) for matching talent with funding needs
+
+**Integration Strategy Sequence Diagram**
+```mermaid
+sequenceDiagram
+    participant Allo as Allo Protocol
+    participant HumanAllo as Human Allo Layer
+    participant Talent as Talent Profile
+    participant Funder as Capital Provider
+    
+    Allo->>HumanAllo: Provide Base Infrastructure
+    HumanAllo->>Talent: Register & Verify Profile
+    Talent-->>HumanAllo: Submit Credentials
+    Funder->>HumanAllo: Discover Talent
+    HumanAllo->>Funder: Match Potential Candidates
+```
 
 By focusing on funding [human capital](docs/concepts/human-capital.md) directly, [Human Allo](docs/concepts/human-allo.md) creates pathways for maintaining [ecosystem stability](docs/concepts/ecosystem-stability.md) even when specific project solutions cannot be predetermined. This approach ensures critical expertise remains available and supported within the system, regardless of project-specific constraints.
