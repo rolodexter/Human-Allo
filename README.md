@@ -2,6 +2,18 @@
 
 The [Human Allo](docs/concepts/human-allo.md) protocol addresses a fundamental paradox in [global problem-solving](docs/concepts/global-problem-solving.md): while we often cannot fully define specific [project solutions](docs/solutions/project-solutions.md) for complex challenges, we can identify the critical [expertise](docs/attributes/expertise.md) and [talent](docs/actors/talent.md) needed to maintain [ecosystem stability](docs/concepts/ecosystem-stability.md).
 
+**1. Architecture Flow Diagram**
+```mermaid
+flowchart TD
+    A[Allo Protocol Base Layer] --> B[Human Allo Layer]
+    B --> C{Talent Registry}
+    B --> D{Funding Mechanisms}
+    C --> E[Skill Profiling]
+    C --> F[Credential Verification]
+    D --> G[Direct Talent Funding]
+    D --> H[Milestone Allocations]
+```
+
 ### Core Problem Statement
 
 **[Information Asymmetry](docs/concepts/information-asymmetry.md)**:
