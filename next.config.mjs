@@ -5,4 +5,8 @@ const withNextra = nextra({
   themeConfig: './theme.config.tsx'
 })
 
-export default withNextra()
+export default withNextra({
+  output: 'export',
+  basePath: process.env.GITHUB_ACTIONS ? '/Human-Allo' : '',
+  assetPrefix: process.env.GITHUB_ACTIONS ? '/Human-Allo/' : ''
+})
